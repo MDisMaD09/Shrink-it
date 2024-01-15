@@ -12,17 +12,12 @@ const port = process.env.PORT || 3000;
 
 
 mongoose.connect(process.env.mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
-const sessionStore = MongoStore.create({
-    clientPromise: conn,
-    dbName: "session",
-  mongoUrl: process.env.mongoURL
 
-})
 const sessionMiddleware = session({
   secret: process.env.SESSION_SECRET || 'your-secret-key',
   resave: false,
   saveUninitialized: true,
-  store: MongoStore.create({mongoUrl: process.env.mongoURL})
+  store: MongoStore.create({ mongoUrl: process.env.mongoURL }),
 });
 
 app.use(sessionMiddleware);
