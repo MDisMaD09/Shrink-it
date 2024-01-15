@@ -1,14 +1,15 @@
 html,
 body {
   height: 100%;
+  overflow:hidden;
 }
 
 .table-container{
   overflow-y: scroll; /* Enable vertical scrollbar */
 }
 ::-webkit-scrollbar {
-    width: 1vw;
-    background: #3586ff; /* make scrollbar transparent */
+/*     width: 1vw; */
+/*     background: #3586ff; /* make scrollbar transparent */ */
 }
 body {
   display: flex;
