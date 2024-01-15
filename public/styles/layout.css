@@ -20,7 +20,7 @@ header {
 .navbar {
   background-color: #3586ff;
   padding: 0px;
-  width: 110vw;
+  width: 100vw;
   
 
 }
@@ -49,7 +49,7 @@ header {
 
 footer {
   position: relative;
-  width: 110vw;
+  width: 100vw;
   background: #3586ff;
   min-height: 100px;
   padding: 20px 50px;
