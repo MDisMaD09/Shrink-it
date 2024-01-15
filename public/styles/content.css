@@ -6,6 +6,10 @@ body {
 .table-container{
   overflow-y: scroll; /* Enable vertical scrollbar */
 }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 body {
   display: flex;
   flex-direction: column;
