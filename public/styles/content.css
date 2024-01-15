@@ -7,8 +7,8 @@ body {
   overflow-y: scroll; /* Enable vertical scrollbar */
 }
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    width: 1vw;
+    background: #3586ff; /* make scrollbar transparent */
 }
 body {
   display: flex;
