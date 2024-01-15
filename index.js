@@ -22,7 +22,7 @@ const sessionMiddleware = session({
   secret: process.env.SESSION_SECRET || 'your-secret-key',
   resave: false,
   saveUninitialized: true,
-  store: sessionStore
+  store: MongoStore.create({mongoUrl: process.env.mongoURL})
 });
 
 app.use(sessionMiddleware);
