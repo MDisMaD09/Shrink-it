@@ -37,13 +37,15 @@ header {
         display: inline-block;
         text-align: center;
     }
+  .hey{
+    font-size:30px;
+  }
 }
 @media (min-width:600px) {
     .heading{
         margin: 1%;  
     }
-  .hey{
-    font-size:30px;
+  
 }
 
 footer {
