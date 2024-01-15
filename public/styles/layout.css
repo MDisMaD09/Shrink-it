@@ -37,9 +37,6 @@ header {
         display: inline-block;
         text-align: center;
     }
-    footer{
-        margin-bottom: -25%;
-    }
 }
 @media (min-width:600px) {
     .heading{
